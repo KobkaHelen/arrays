@@ -25,7 +25,7 @@ function eat(arr) {
 }
 let arr = ["нам", "не", "страшен", "серый", "волк"]
 
-console.log ( arr.lenght );
+console.log ( arr.length );
 eat(arr);
 eat(arr);
 console.log( arr.length );
@@ -36,6 +36,30 @@ a[5] = 5;
 console.log(a);
 
 let err = ["Яблоко", "Апельсин", "Груша"];
-for (let i = 0; i < err.lenght; i++) {
+for (let i = 0; i < err.length; i++) {
     console.log( err[i]);
 }
+
+let step = 0
+function log(value) {
+    console.log(++step, value, typeof value)
+}
+
+//Масив цілих чисел
+const integers = [5, 8, 9, 7, 2]
+log(integers)
+
+// Масив чисел з плаваючою крапкою
+const floats = [4.5, 6.05, 7.3, 5.7, 9.4]
+log(floats) 
+
+// Масив рядків
+const strings = ['name', "age", `growht`]
+log(strings)
+
+// Масив з нічого
+//Масив з undefaind
+//Масив дата народження
+//Масив про себе
+//Масив все разом
+// Масив свій варіант
