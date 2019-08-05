@@ -58,8 +58,27 @@ const strings = ['name', "age", `growht`]
 log(strings)
 
 // Масив з нічого
+const nothing = [null]
+log(nothing)
+
 //Масив з undefaind
+const r = []
+log( r[0] )
+
 //Масив дата народження
+const yearOfBirth = [1988]
+log(yearOfBirth)
+
 //Масив про себе
+const aboutMySelf = ['nice girl', '33 years old']
+log(aboutMySelf)
+
 //Масив все разом
+const allOfType = [8, 6.05, `name`, null, 1988, 1/0]
+log(allOfType)
+
 // Масив свій варіант
+const myVersionSummer = ["sunny", "sea", "flowers",
+"smiles", {programming:"Loves"} ]
+log(myVersionSummer)
+log(myVersionSummer[4].programming)
